@@ -1,6 +1,6 @@
 # Progetto di Gestione di Rete
 
-## Uso di SNMP per collezionare dati, analisi statica e tramite Double Exponential Smoothing
+### Uso di SNMP per collezionare dati, analisi statica e tramite Double Exponential Smoothing
 
 ---
 
