@@ -4,6 +4,14 @@
 
 ---
 
+### Dipendenze
+
+```sh
+sudo apt install python3 snmp snmp-mibs-downloader libsnmp-dev
+pip3 install easysnmp plotly
+```
+
+
 ### Setup
 
 Modificare il file il file `/etc/snmp/snmpd.conf` inserendo la riga `pass .1.3.6.1.2.1.25.1.0 /bin/sh /etc/snmp/cputemp.sh` e muovere il file `cputemp.sh` dalla repository in `/etc/snmp/`.
