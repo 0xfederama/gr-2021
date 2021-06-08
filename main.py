@@ -167,7 +167,7 @@ def snmp():
             inOctOld = inOctNew
             outOctOld = outOctNew
 
-            time.sleep(10)
+            time.sleep(300)
 
     except exceptions.EasySNMPError as error:
         print(error)

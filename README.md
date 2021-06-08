@@ -25,7 +25,7 @@ Creare un file `credentials.json` nella repository con la seguente struttura:
 ```
 Inserire come primo valore il token di un bot di Telegram di cui abbiamo il controllo (utilizzare @BotFather per crearlo) e come secondo valore il proprio id di chat sul quale vogliamo ricevere i messaggi (per trovarlo è sufficiente iniziare una chat con il bot @getidsbot).
 
-Come ultima personalizzazione, scrivere l'indirizzo ip del computer che si desidera monitorare. NB: se si desidera monitorare un computer diverso da localhost, è necessario che il primo passaggio di setup (con il file `snmpd.conf` e `cputemp.sh`) venga effettuato sulla macchina da monitorare.
+Come ultima personalizzazione, scrivere l'indirizzo ip del computer che si desidera monitorare (riga 79). NB: se si desidera monitorare un computer diverso da localhost, è necessario che il primo passaggio di setup (con il file `snmpd.conf` e `cputemp.sh`) venga effettuato sulla macchina da monitorare.
 
 ### Run
 
